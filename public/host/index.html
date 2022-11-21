@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EnergyQuest</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/host.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="main container">
+        <div class="title-wrapper">
+            <p class="main__title title">Подключись к игре, используя этот пин-код!</p>
+            <h1 id="gamePinText"></h1>
+        </div>
+        <div class="main__divider div"></div>
+        <p class="main__any-title title">Список подключенных игроков</p>
+        <textarea style="width: 100%; height: 200px; margin: 3rem 0px 0px 0px" readonly id='players'></textarea>
+        <div class="wr">
+            <button id="cancel" onclick="endGame()">Закрыть квест</button>
+            <button id='start' onclick="startGame()">Начать квест</button>
+        </div>
+
+    </main>
+    <script src="../socket.io/socket.io.js"></script>
+    <script src="../js/libs/jqueryLibrary.js"></script>
+    <script src="../js/libs//deparam.js"></script>
+    <script src="../js/host.js"></script>
+</body>
+
+</html>

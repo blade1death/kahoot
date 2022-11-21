@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creator | KahootClone</title>
+        <link rel = "stylesheet" href = "../../css/quizCreator.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    </head>
+    <body>
+        <main class="main container">
+            <h1 id = "main__title title">Здесь создают вопросы к викторине</h1>
+        
+        <div class="form-field">
+            <p class="main__button-title button-title">Название квеста</p>
+            <input class="main__input inputt" id = "name" type = "text" name="name" autofocus/>
+        </div>
+        <br>
+        <br>
+        <div id = "allQuestions">
+            <div id="question-field">
+                <p class="question__title button-title">Вопрос 1</p>
+                <input class = "question small-inputt" id = "q1" type = "text" autofocus/>
+                <div class="question__top">
+                    <div class="gr">
+                        <p class="question__title button-title">Ответ 1</p>
+                        <input class="small-inputt" id = "1a1" type = "text" autofocus/>
+                    </div>
+                    <div class="gr">
+                        <p class="question__title button-title">Ответ 2</p>
+                        <input class="small-inputt" id = "1a2" type = "text" autofocus/>
+                    </div>
+
+                </div>
+                <div class="question__bottom">
+                    <div class="gr">
+                        <p class="question__title button-title">Ответ 3</p>
+                        <input class="small-inputt" id = "1a3"  type = "text"autofocus/>
+                    </div>
+                    <div class="gr">
+                        <p class="question__title button-title">Ответ 4</p>
+                        <input class="small-inputt" id = "1a4"  type = "text" autofocus/>
+                    </div>
+                </div>
+                <p class="question__title button-title">Правильный ответ (1-4)</p>
+                <input class = "correct small-inputt" id = "correct1"  type = "number" autofocus/>
+            </div>
+        </div>
+        <br>
+        <button onclick = "addQuestion()">Добавить новый вопрос</button>
+        
+        <br>
+        <br>
+        
+        <div class="form-field">
+            <button onclick = "updateDatabase()">Создать квест</button>
+        </div>
+        
+        <br>
+        
+        <button onclick = 'cancelQuiz()'>Удалить квест и вернуться на главный экран</button>
+        
+        <script src = "../../socket.io/socket.io.js"></script>
+        <script src = "../../js/quizCreator.js"></script>
+        </main>
+    </body>
+</html>

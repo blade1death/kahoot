@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EnergyQuest</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <main class="main">
+        <div class="main__left">
+            <p class="main__left__title title">Примите участие в игре-викторине!</p>
+            <p class="main__left__desc desc">Введите пин-код игры и напишите никнейм, который будет отображаться в рейтинге игроков.</p>
+            <form action="/player/">
+                <div class="form__wrapper">
+                    <div class="form-field">
+                        <p class="main__left__button-title button-title">Пин-код</p>
+                        <input class="main__left__input-2 inputt" id="pin" type="text" name="pin" />
+                    </div>
+                    <div class="form-field">
+                        <p class="main__left__button-title">Название команды</p>
+                        <input class="main__left__input-1 inputt" id="name" type="text" name="name" autofocus />
+                    </div>
+                </div>
+                <div class="form-field">
+                    <button class="main__left__button button" id="joinButton">Присоединиться к игре</button>
+                </div>
+                
+            </form>
+        </div>
+        <div class="main__right">
+            <img src="./bg.jpg" alt="Задний фон" class="main__right__bg">
+            <div class="main__right__card">
+                <p class="main__right__title title">Или создайте свой квест!</p>
+                <p class="main__right__desc desc">Создайте квест с произвольным количеством вопросов, возможностью добавлять картинки.</p>
+                <a href="/create/" class="main__right__button">Создать квест</a>
+            </div>
+        </div>
+    </main>
+  
+</body>
+
+</html>

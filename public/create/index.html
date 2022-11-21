@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Создать квест</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href = "../css/create.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    </head>
+    <body>
+        <main class="main container">
+            <a id = "back-link" href = "../">Вернуться назад</a>
+            <br>
+            <p class="main__title title">Выберите квест, который нужно запустить</p>
+            <p class="main__desc desc">После нажатия на квест, вы увидите пин-код, который нужно сообщить участникам квеста.</p>
+            <div id = "game-list">
+            
+            </div>
+            <div class="main__div div"></div>
+            <p class="main__any-title title">Создайте свой квест</p>
+            <p class="main__any-desc desc">Создайте квест с произвольным количеством вопросов, возможностью добавлять картинки.</p>
+            <a id = "link" href = "quiz-creator/">Создать квест</a>
+        </main>
+        <script src = "../socket.io/socket.io.js"></script>
+        <script src = "../js/create.js"></script>
+    </body>
+</html>

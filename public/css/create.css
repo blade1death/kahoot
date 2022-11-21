@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+    padding           : 0;
+    margin            : 0;
+    border            : 0;
+    font-family       : Montserrat;
+    font-size         : 1rem;
+    color             : black;
+    -webkit-box-sizing: border-box;
+    box-sizing        : border-box;
+}
+
+a {
+    color          : black;
+    text-decoration: none;
+    /* no underline */
+}
+
+
+img {
+    height: auto;
+    width : 100%;
+}
+
+.container {
+    max-width    : 73.125rem;
+    padding-left : 0.9375rem;
+    padding-right: 0.9375rem;
+    margin-right : auto;
+    margin-left  : auto;
+}
+
+
+.main {
+    padding: 50px 0px 0px 0px;
+}
+
+.title {
+    display    : inline-block;
+    font-family: 'Montserrat';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 35px;
+    line-height: 109.9%;
+}
+
+.desc {
+    line-height: 109.9%;
+
+}
+
+.main__title {
+    width: calc(100% / 1.9);
+}
+
+.main__desc {
+    margin: 1rem 0px 1rem 0px;
+    width : calc(100% / 2.5);
+}
+
+#back-link {
+    display: inline-block;
+    margin : 0px 0px 4rem 0px;
+}
+
+
+#back-link:hover {
+    color     : #45A7E3;
+    transition: color 0.5s ease;
+}
+
+#game-list {
+    display: flex;
+    gap    : 10px;
+    margin : 0px 0px 2rem 0px;
+}
+
+
+.div {
+    width           : 100%;
+    background-color: rgb(242, 242, 242);
+    height          : 2px;
+}
+
+#gameButton {
+    border-radius: 10px;
+    height       : 30px;
+    padding      : 0px 20px;
+    background   : white;
+    box-shadow   : 0px 18px 273px rgba(0, 0, 0, 0.09), 0px 7.51997px 114.053px rgba(0, 0, 0, 0.0646969), 0px 4.02054px 60.9781px rgba(0, 0, 0, 0.0536497), 0px 2.25388px 34.1838px rgba(0, 0, 0, 0.045), 0px 1.19702px 18.1548px rgba(0, 0, 0, 0.0363503), 0px 0.498106px 7.55461px rgba(0, 0, 0, 0.0253031);
+}
+
+
+.main__any-title {
+    margin: 2rem 0px 0px 0px;
+}
+
+.main__any-desc {
+    margin: 1rem 0px 0px 0px;
+    width : calc(100% / 2.5);
+}
+
+
+#link {
+    margin       : 3rem 0px 1rem 0px;
+    display      : inline-block;
+    border-radius: 10px;
+    padding      : 10px 20px;
+    background   : white;
+    box-shadow   : 0px 18px 273px rgba(0, 0, 0, 0.09), 0px 7.51997px 114.053px rgba(0, 0, 0, 0.0646969), 0px 4.02054px 60.9781px rgba(0, 0, 0, 0.0536497), 0px 2.25388px 34.1838px rgba(0, 0, 0, 0.045), 0px 1.19702px 18.1548px rgba(0, 0, 0, 0.0363503), 0px 0.498106px 7.55461px rgba(0, 0, 0, 0.0253031);
+}
+
+
+#link:hover {
+    color     : #45A7E3;
+    transition: color 0.5s ease;
+}
